@@ -24,7 +24,7 @@ locale: en-CA
 
 # Build settings
 markdown: kramdown
-theme: hacker
+remote_theme: no-style-please
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -54,6 +54,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-remote-theme
 
 author:
   name   : "Jordan Cox"
