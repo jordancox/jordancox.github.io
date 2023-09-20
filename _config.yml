@@ -25,7 +25,7 @@ locale: en-CA
 
 # Build settings
 markdown: kramdown
-remote_theme: no-style-please
+remote_theme: riggraz/no-style-please
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
